@@ -6,8 +6,8 @@ import com.asc.model.Buyer;
 import com.asc.model.Seller;
 
 public interface AdminDao {
-	public Buyer viewRegisterBuyerList(Buyer b)throws BuyerException;
-	public Seller viewRegisterSellerList(Seller s) throws SellerException;
+	public String viewRegisterBuyerList(Buyer b)throws BuyerException;
+	public String viewRegisterSellerList(Seller s) throws SellerException;
 	
 	
 }
